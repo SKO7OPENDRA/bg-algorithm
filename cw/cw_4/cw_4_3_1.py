@@ -15,4 +15,6 @@ def test_fib(func):
 def fib_dic(n):
     fib_d = {0: 0, 1: 1}
 
-    def _fib_dict(n):
+    # def _fib_dict(n):
+
+# не закончено
