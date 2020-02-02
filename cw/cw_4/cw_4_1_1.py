@@ -1,3 +1,5 @@
+# Виды алгоритмов, оценка сложности, timeit, profiler
+
 import timeit
 
 x = 2 + 2

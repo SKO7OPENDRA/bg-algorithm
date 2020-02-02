@@ -1,3 +1,6 @@
+# Виды алгоритмов, оценка сложности, timeit, profiler
+
+
 import cProfile
 
 
