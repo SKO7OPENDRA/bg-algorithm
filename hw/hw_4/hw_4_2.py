@@ -10,7 +10,7 @@
 
 
 def hw_4_2_v1(x):
-    # x = abs(int(input('Введите натуральное число: ')))
+    # x = abs(int(input('Введите натуральное число: '))) # не забудь убрать x в функции
     era = list(range(x + 1))
     era[1] = 0
     for i in era:
@@ -18,11 +18,13 @@ def hw_4_2_v1(x):
             for j in range(i + i, len(era), i):
                 era[j] = 0
     return era
+
+
 # print(hw_4_2_v1())
 
 
 def hw_4_2_v2(y):
-    # y = abs(int(input('Введите натуральное число: ')))
+    # y = abs(int(input('Введите натуральное число: ')))  # не забудь убрать y в функции
     classic = []
     for i in range(2, y):
         result = True

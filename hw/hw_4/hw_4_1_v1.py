@@ -1,5 +1,3 @@
-import cProfile
-import timeit
 from random import random
 
 N = 15

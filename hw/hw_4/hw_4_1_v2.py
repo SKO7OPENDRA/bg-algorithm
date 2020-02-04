@@ -1,5 +1,3 @@
-import cProfile
-import timeit
 from random import random
 
 
@@ -11,8 +9,8 @@ for i in range(N):
     print(arr[i], end=' ')
 
 print()
-mn = 0
 mx = 0
+mn = 0
 
 for i in range(N):
     if arr[i] < arr[mn]:
