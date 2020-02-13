@@ -9,5 +9,7 @@ while True:
         a = input("Введите число от 0 до 10: ")
         if 0 <= int(a) <=10:
             print()
+        elif:
+            DUDE
 
 
