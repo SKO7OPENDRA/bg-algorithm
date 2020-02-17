@@ -9,7 +9,20 @@ while True:
         a = input("Введите число от 0 до 10: ")
         if 0 <= int(a) <=10:
             print()
-        elif:
-            DUDE
+            break
+        else:
+            print("DUDE")
+            break
 
 
+while True:
+    try:
+        age = int(input('Введите ваш возраст: '))
+        break
+    except ValueError:
+        continue
+
+if age < 18:
+    print('Доступ запрещен.')
+else:
+    print('Доступ разрешен.')
