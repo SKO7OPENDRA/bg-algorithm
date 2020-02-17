@@ -34,5 +34,5 @@ MIN_ITEM = 0
 MAX_ITEM = 50
 array = [random.uniform(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
 
-print('Массив:', array, sep='\n')
-print('После сортировки:', merge_sort(array), sep='\n')
+print('Изначальный массив:', array, sep='\n')
+print('Отсортированный массив:', merge_sort(array), sep='\n')

@@ -19,6 +19,6 @@ MIN_ITEM = -100
 MAX_ITEM = 99
 array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
 
-print('Массив:', array, sep='\n')
+print('Изначальный массив:', array, sep='\n')
 bubble_sort(array)
-print('После сортировки:', array, sep='\n')
+print('Отсортированный массив:', array, sep='\n')

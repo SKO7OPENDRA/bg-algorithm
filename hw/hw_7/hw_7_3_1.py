@@ -58,13 +58,13 @@ MAX_ITEM = 50
 MIN_SIZE = 5
 MAX_SIZE = 10
 
-m = random.randint(MIN_SIZE, MAX_SIZE)
-size = 2 * m + 1
+n = random.randint(MIN_SIZE, MAX_SIZE)
+size = 2 * n + 1
 
 array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(size)]
 
 
-print(f'Сгенерирован массив из 2*{m}+1 = {size}  элементов:', array, sep='\n')
+print(f'Изначальный массив из 2*{n}+1 = {size}  элементов:', array, sep='\n')
 
 median = median_search(array, 0, len(array) - 1)
 print(f'Медиана: {median}')
