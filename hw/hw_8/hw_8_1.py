@@ -7,4 +7,4 @@ graph = [[int(i > j) for i in range(n)] for j in range(n)]
 hands_clap = reduce(lambda acc, x: acc + sum(x), graph, 0)
 print(f'Количество рукопожатий {hands_clap}')
 
-# Every body hands clap
+# Everybody hands clap
